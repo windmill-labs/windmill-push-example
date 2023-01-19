@@ -1,7 +1,6 @@
 # Windmill Push Example
 
-This repo demonstrates how to push windmill workspaces to a github repository
-automatically.
+This repo demonstrates how to push definitions from GitHub to Windmill automatically.
 
 See also
 [backup example](https://github.com/windmill-labs/windmill-backup-example) and
