@@ -1,6 +1,7 @@
 # Windmill Push Example
 
-This repo demonstrates how to push definitions from GitHub to Windmill automatically.
+This repo demonstrates how to push definitions from GitHub to Windmill
+automatically.
 
 See also
 [backup example](https://github.com/windmill-labs/windmill-backup-example) and
@@ -30,9 +31,9 @@ automatically ran on a schedule.
 
 In some cases it may be useful to take extra care, especially when users have
 access to the automated repo that do not have write access to the repository. To
-do so, create a separate account that can only access this specific workspace
-and only has read access and use a token issued using this account. This can be
-done using the UI or the
+do so, create a separate account that can only access this specific
+workspacewith write access and use a token issued using this account. This can
+be done using the UI or the
 [wmill cli](https://github.com/windmill-labs/windmill/blob/main/cli/README.md).
 
 It may additionally be useful to restrict the GitHub environment.
