@@ -16,9 +16,14 @@ account settings, which contains a "Tokens" section, use the relevant button
 there to generate a new token. Note that you will only be able to copy this
 token once!
 
+![](./img/account-settings.png) ![](./img/tokens.png)
+
 Add an environment "windmill" to the repository via the settings. You may name
 this anything, but will need to adjust the workflow accordingly. Then add a
 secret "WMILL_TOKEN" to this environment.
+
+![](./img/gh-environment.png#gh-dark-mode-only)
+![](./img/gh-environment-light.png#gh-light-mode-only)
 
 Edit the workflow in
 [.github/workflows/push.yaml](./.github/workflows/push.yaml), usually you'll
@@ -26,6 +31,9 @@ only need to fill out the `env` variables, then activate GitHub actions by
 navigating to the "Actions" tab in GitHub. You may want to run the action once
 manually to see that everything works, in the future the action will be
 automatically ran on a schedule.
+
+![](./img/configure.png#gh-dark-mode-only)
+![](./img/configure-light.png#gh-light-mode-only)
 
 ### Security
 
